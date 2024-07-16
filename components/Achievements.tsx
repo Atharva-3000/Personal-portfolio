@@ -13,7 +13,7 @@ const Achievements = () => {
                 <div className='h-80 md:h-[30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden'>
 
                 <InfiniteMovingCards
-                items={achievements} direction='right' speed='slow'/>
+                items={achievements} direction='right' speed='normal'/>
                 </div>
             </div>
         </div>
