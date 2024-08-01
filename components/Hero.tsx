@@ -50,7 +50,7 @@ const Hero = () => {
                 position="right"
               />
             </a>
-            <a href="https://drive.google.com/file/d/17m6V6uJOi9_3-Ei5AbSKk4ZD92lPG6Z9/view?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/file/d/1Q8QXJqRqGKcOQUdimwiCRWi12D5lfsdP/view?usp=sharing">
               <MagicButton
               otherClasses="text-purple uppercase hover:font-bold tacking-wide hover:tracking-widest transition-all duration-300"
                 title="Resume"
