@@ -51,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a Resume to Portfolio Generator.",
+    title: "Currently learning Golang for backend development",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -74,11 +74,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Magma Clone",
-    des: "A 3D scrollable clone of Magma, made entirely in javascript using locomotive for smooth scroll along with GSAP.",
-    img: "/magma.png",
-    iconLists: ["/html.svg", "/css.svg", "/loco.png", "/javascript.png", "/gsap.svg"],
-    link: "https://magma-clone-et.netlify.app/",
+    title: "Ask A Site !",
+    des: "A website that allows you to directly chat with the webiste itself using rag model",
+    img: "/ask-a-site.png",
+    iconLists: ["/upstash.png", "/tail.svg", "/next.svg", "/ts.svg"],
+    link: "https://chat-a-site.vercel.app/",
   },
   {
     id: 2,
@@ -110,72 +110,32 @@ export const achievements = [
   {
     id: 1,
     quote:
+      "Lead the team which won Aadhaar Anon Track Price during the hackathon called as Hacker House Goa",
+    img: "hhgoa.jpg",
+    title: "Anon Aadhaar Track Price, HH Goa",
+  },
+  {
+    id: 2,
+    quote:
       "I was appointed as the designer of the team, we made a one click solution to backup your Amazon buckets to Arweave via a pipeline.",
     img: "arweave.jpg",
     title: "1st Runner Up, Arweave Hacker House Cohort #1",
   },
   {
-    id: 2,
+    id: 3,
     quote:
       "Came second in this National level 72 hour hackathon. We developed a suite to allow specially abled people to use a computer with less effort.",
     img: "hackvengers.png",
     title: "2nd Runner-Ups Hackvengers.",
   },
   {
-    id: 3,
+    id: 4,
     quote:
       "I was appointed as the Web Development Lead for Google Developer Student Club - Parul University for the year 2023-2024.",
     img: "gdsc.png",
     title: "GDSC Web Development Lead",
   },
-  // {
-  //   id:4,
-  //   quote:
-  //     "Was selected as the contributo",
-  //     img: "gssoc.png",
-  //   title: "Director of AlphaStream Technologies",
-  // },
-  // {
-  //   id:5,
-  //   quote:
-  //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-  //   img: "./nothing.jpeg",
-  //   title: "Director of AlphaStream Technologies",
-  // },
 ];
-
-// export const companies = [
-//   {
-//     id: 1,
-//     name: "cloudinary",
-//     img: "/cloud.svg",
-//     nameImg: "/cloudName.svg",
-//   },
-//   {
-//     id: 2,
-//     name: "appwrite",
-//     img: "/app.svg",
-//     nameImg: "/appName.svg",
-//   },
-//   {
-//     id: 3,
-//     name: "HOSTINGER",
-//     img: "/host.svg",
-//     nameImg: "/hostName.svg",
-//   },
-//   {
-//     id: 4,
-//     name: "stream",
-//     img: "/s.svg",
-//     nameImg: "/streamName.svg",
-//   },
-//   {
-//     id: 5,
-//     name: "docker.",
-//     img: "/dock.svg",
-//     nameImg: "/dockerName.svg",
-//   },
-// ];
 
 export const workExperience = [
   {
@@ -187,10 +147,10 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Gneration Nothing Community Member",
-    desc: "Got the opportunity to contribute to Nothing.tech's community as Nothing's Generation Nothing Member.",
+    title: "OSS.GG Contributor",
+    desc: "Ranked #11 out of 4000+ in the open-source month long hackathon by OSS.GG",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/nothing.jpeg",
+    thumbnail: "/oss.png",
   },
   {
     id: 3,
@@ -201,10 +161,10 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "More Incoming",
-    desc: "Actively looking to gather more Experiece, drop me an email if you think that I can help you.",
+    title: "Backend Engineer at OnwE",
+    desc: "Responsible for making admin routes as well as authentication middleware for the website for handling a user base of >1000 users.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/onwe.jpg",
   },
 ];
 
