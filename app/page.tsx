@@ -1,5 +1,6 @@
 import Achievements from "@/components/Achievements";
 import Approach from "@/components/Approach";
+import Blogs from "@/components/Blogs";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
@@ -19,6 +20,7 @@ export default function Home() {
         <Achievements />
         <Experience/>
         <Approach/>
+        <Blogs/>
         <Footer/>
       </div>
     </main>
