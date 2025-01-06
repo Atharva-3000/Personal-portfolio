@@ -3,11 +3,23 @@ import { withSentryConfig } from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: [
-      'media2.dev.to',
-      'dev-to-uploads.s3.amazonaws.com',
-      'res.cloudinary.com',
-      'dev.to'
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'media2.dev.to',
+      },
+      {
+        protocol: 'https',
+        hostname: 'dev-to-uploads.s3.amazonaws.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'dev.to',
+      },
     ],
   },
 };
